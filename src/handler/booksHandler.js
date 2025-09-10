@@ -1,4 +1,4 @@
-import { books } from "./data.js";
+import { books } from "../data/books.js";
 
 //handler buat semua buku
 export const getAllBooksHandler = (req, res) => {
