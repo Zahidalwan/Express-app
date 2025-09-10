@@ -5,7 +5,7 @@ import {
   getAllBooksHandler,
   getBookByIdHandler,
   updateBookByIdHandler,
-} from "./handler.js";
+} from "../handler/booksHandler.js";
 
 //Variable router
 const router = express.Router();
